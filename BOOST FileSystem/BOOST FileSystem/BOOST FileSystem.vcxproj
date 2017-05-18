@@ -145,6 +145,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="directory.cpp" />
     <ClCompile Include="directory_content.cpp" />
     <ClCompile Include="Directory_sort.cpp" />
     <ClCompile Include="file_existance.cpp" />
@@ -153,6 +154,7 @@
     <ClCompile Include="Other.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="directory.h" />
     <ClInclude Include="filesystem_header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
